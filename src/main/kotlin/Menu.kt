@@ -20,7 +20,7 @@ class Menu(val title: String) {
                 options[index].second()
                 return
             } else {
-                println("Некорректный ввод. Попробуйте снова.")
+                println("Некорректный ввод. Попробуйте снова. ")
             }
         }
     }
