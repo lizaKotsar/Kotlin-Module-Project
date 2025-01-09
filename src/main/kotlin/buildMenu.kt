@@ -12,7 +12,7 @@ fun <T> buildMenu(
         menu.addOption(itemDescription(item)) { onSelect(item) }
     }
 
-    additionalOptions.forEach { (description, action) ->
+    additionalOptions.forEach { (description,  action) ->
         menu.addOption(description, action)}
 
     menu.show()

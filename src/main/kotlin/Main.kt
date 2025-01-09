@@ -64,7 +64,7 @@ fun createNoteMenu(archive: Archive) {
 
 // Просмотр заметки
 fun viewNoteMenu(note: Note) {
-    println("\nНазвание: ${note.title}")
+    println("\nНазвание: ${note.title} ")
     println("Содержание: ${note.content}")
     println("Нажмите Enter, чтобы вернуться назад.")
     readLine()
