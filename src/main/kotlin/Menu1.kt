@@ -1,5 +1,11 @@
 
-class Menu(val title: String) {
+
+
+
+//
+
+
+class Menu1(val title: String) {
     private val options = mutableListOf<Pair<String, () -> Unit>>()
 
     fun addOption(description: String, action: () -> Unit) {

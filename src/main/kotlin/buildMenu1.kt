@@ -6,7 +6,7 @@ fun <T> buildMenu(
     onSelect: (T) -> Unit,
     additionalOptions: List<Pair<String, () -> Unit>> = emptyList())
 {
-    val menu = Menu(title)
+    val menu = Menu1(title)
 
     items.forEach { item ->
 
