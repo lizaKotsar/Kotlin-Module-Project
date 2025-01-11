@@ -1,3 +1,4 @@
+
 class Menu(val title: String) {
     private val options = mutableListOf<Pair<String, () -> Unit>>()
 
